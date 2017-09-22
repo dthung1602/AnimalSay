@@ -30,4 +30,4 @@ if ! rm /etc/bash_completion.d/animal; then
     exit_with_error "Unable to delete /etc/bash_completion.d/animal"
 fi
 
-echo "\'animal\' has been uninstall!"
+echo "'animal' has been uninstall!"

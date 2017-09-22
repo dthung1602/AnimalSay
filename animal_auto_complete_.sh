@@ -13,7 +13,7 @@ _animal()
     cur="${COMP_WORDS[COMP_CWORD]}"
     prev="${COMP_WORDS[COMP_CWORD-1]}"
     opts="-l --list -h --help -q --quote -s --say -n --natural -i --insult -c --communism -g --got -r --reference"
-    animal_list=$(cat "__PATH__animal_list.txt" | tr "\n" " ")
+    animal_list=$(cat "/home/cs-18/cs2016/AnimalSay/animal_list.txt" | tr "\n" " ")
     animal_list=$(echo ${animal_list} any)
 
     if [[ ${cur} == -* ]] ; then
